@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find my Fandom account</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Find my Fandom account</h1>
+        <select id="s">
+            <option>subnautica</option>
+            <option>backrooms</option>
+            <option>minecraft</option>
+        </select><code>.fandom.com/wiki/User:SeaDragon1</code><br><br>
+        <button onclick="visit()">Go!</button>
+        <script>
+            document.getElementById("s").value = "";
+            function visit() {
+                window.open("https://www." + document.getElementById("s").value + ".fandom.com/wiki/User:SeaDragon1");
+            }
+        </script>
+    </body>
+</html>
