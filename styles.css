@@ -1,0 +1,20 @@
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+a:visited {
+    color: #aa00ff;
+}
+
+option, select {
+    font-family: monospace;
+}
